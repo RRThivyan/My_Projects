@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telecom Churn Prediction</title>
+</head>
+<body>
+    <h1>Telecom Customer Churn Prediction</h1>
+    <form method="POST" action="/predict">
+        
+
+        <label for="State">State:</label>
+        <input type="text" name="State" required><br>
+
+        <label for="Account_Length">Account Length:</label>
+        <input type="text" name="Account_Length" required><br>
+
+        <label for="Area_Code">Area Code:</label>
+        <input type="text" name="Area_Code" required><br>
+
+        <label for="International_Plan">International Plan:</label>
+        <input type="text" name="International_Plan" required><br>
+          
+        <label for="VMail_Plan">VMail Plan (1 for Yes, 0 for No):</label>
+        <input type="text" name="VMail_Plan" required><br>
+        
+        <label for="Day_Calls">Day Calls:</label>
+        <input type="text" name="Day_Calls" required><br>
+
+        <label for="Day_Charge">Day Charge:</label>
+        <input type="text" name="Day_Charge" required><br>
+
+        <label for="Eve_Calls">Eve Calls:</label>
+        <input type="text" name="Eve_Calls" required><br>
+
+        <label for="Eve_Charge">Eve Charge:</label>
+        <input type="text" name="Eve_Charge" required><br>
+
+        <label for="Night_Calls">Night Calls:</label>
+        <input type="text" name="Night_Calls" required><br>
+
+        <label for="Night_Charge">Night Charge:</label>
+        <input type="text" name="Night_Charge" required><br>
+
+        <label for="International_calls">International Calls:</label>
+        <input type="text" name="International_calls" required><br>
+
+        <label for="International_Charge">International Charge:</label>
+        <input type="text" name="International_Charge" required><br>
+
+        <label for="CustServ_Calls">CustServ Calls:</label>
+        <input type="text" name="CustServ_Calls" required><br>
+
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if error %}
+    <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>

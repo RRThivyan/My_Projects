@@ -1,0 +1,16 @@
+paddlepaddle
+paddleocr
+numpy
+matplotlib
+opencv-python
+langchain_core 
+langchain_community 
+uvicorn 
+pypdf 
+langchain-huggingface 
+faiss-cpu 
+langchainhub
+sentence_transformers 
+PyPDF2
+fastapi
+streamlit

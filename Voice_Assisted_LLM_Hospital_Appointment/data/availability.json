@@ -1,0 +1,10 @@
+{  
+    "dentist": [  
+        {"date": "2023-11-01", "time": ["morning", "afternoon"]},  
+        {"date": "2023-11-02", "time": ["afternoon", "evening"]}  
+    ],  
+    "cardiologist": [  
+        {"date": "2023-11-01", "time": ["morning"]},  
+        {"date": "2023-11-03", "time": ["evening"]}  
+    ]  
+}  

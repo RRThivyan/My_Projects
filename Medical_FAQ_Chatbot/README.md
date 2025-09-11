@@ -6,7 +6,7 @@ This project is a simple yet powerful chatbot that uses the Retrieval-Augmented 
 
 - **RAG Pipeline**: The chatbot uses a RAG pipeline to retrieve relevant information from a knowledge base and generate human-like answers.
 - **Streamlit Interface**: A simple and intuitive web interface built with Streamlit allows users to interact with the chatbot.
-- **OpenAI Integration**: The project uses OpenAI's powerful language models for embeddings and text generation.
+- **OpenAI Integration**: The project uses OpenAI's powerful language models for text generation and Huggingface sentence transformers for embeddings.
 - **FAISS Vector Store**: A FAISS vector store is used for efficient similarity search and retrieval of medical information.
 
 ## Project Structure

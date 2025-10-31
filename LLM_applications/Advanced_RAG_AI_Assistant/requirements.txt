@@ -1,0 +1,73 @@
+# ==============================
+# Core numerical & vector search libraries
+# ==============================
+numpy>=1.26.4,<2.0.0
+faiss-cpu==1.9.0
+pandas>=2.2.0,<3.0.0
+accelerate>=0.30.0
+
+# ==============================
+# Azure OpenAI SDK (GPT-4o & Embeddings)
+# ==============================
+openai>=1.46.0,<2.0.0
+
+# ==============================
+# LangChain core & ecosystem (RAG, HuggingFace)
+# ==============================
+langchain>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+langchain-community>=0.3.2,<0.4.0
+langchain-text-splitters>=0.3.0,<0.4.0
+langchain-huggingface>=0.0.4
+langchain-openai>=0.1.0
+
+# ==============================
+# PDF parsing, Unicode, OCR, and table utilities
+# ==============================
+PyPDF2>=3.0.1
+PyMuPDF==1.24.6                  # fitz
+pdf2image>=1.17.0
+pytesseract>=0.3.10
+Pillow>=10.3.0
+unicodedata2>=15.1.0             # for unicode normalization
+opencv-python>=4.10.0
+camelot-py[cv]>=0.11.0           # optional, requires ghostscript
+pdfminer.six>=20231228
+spacy>=3.7.2
+
+# ==============================
+# Multilingual embeddings & transformer backends
+# ==============================
+sentence-transformers>=3.0.1
+torch>=2.2.0,<3.0.0
+transformers>=4.42.0,<5.0.0
+huggingface-hub>=0.23.0,<1.0.0
+
+# ==============================
+# Language detection
+# ==============================
+langdetect>=1.0.9
+
+# ==============================
+# Web API (FastAPI & Uvicorn)
+# ==============================
+fastapi>=0.115.0,<1.0.0
+uvicorn>=0.30.3,<1.0.0
+
+# ==============================
+# PDF report and document generation
+# ==============================
+reportlab>=4.1.0
+
+# ==============================
+# Environment and utilities
+# ==============================
+python-dotenv>=1.0.1
+requests>=2.31.0
+tqdm>=4.66.0
+typing-extensions>=4.12.0
+
+# ==============================
+# Optional: robust language detection (choose only one method)
+# ==============================
+# fasttext>=0.9.2

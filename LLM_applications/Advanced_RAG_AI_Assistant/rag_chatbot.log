@@ -1643,3 +1643,1066 @@ AI: The information is not available in the provided records.
 2025-10-30 14:27:53,327 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
 2025-10-30 14:27:53,328 [INFO] User: who is the cm
 AI: The information is not available in the provided records.
+2025-10-31 05:20:18,497 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:20:18,497 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:20:19,835 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:20:19,849 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:20:20,194 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:20:20,395 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:20:20,450 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:20:32,510 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:20:34,704 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:20:34,705 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head of Government', "4. Hon'ble Chief Minister", '5. Head of State Executive']
+2025-10-31 05:20:34,705 [INFO] Combined dynamic expansions for 'who is the cm': ['who is the cm', '5. Head of State Executive', '1. Chief Minister', "4. Hon'ble Chief Minister", '2. CM', '3. State Head of Government']
+2025-10-31 05:20:34,705 [INFO] Full Query Expansion for 'who is the cm': ['Who serves as the CM of the state?', 'who is the cm', '5. Head of State Executive', 'Who is the current head of the state government?', '1. Chief Minister', "4. Hon'ble Chief Minister", '3. State Head of Government', '2. CM', 'Who holds the position of Chief Minister?']
+2025-10-31 05:20:37,894 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:20:37,895 [INFO] User: who is the cm
+AI: The Chief Minister of Uttar Pradesh is Shri Yogi Adityanath. How may I assist you further?
+2025-10-31 05:20:50,339 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:20:52,422 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:20:52,423 [INFO] Dynamic LLM expansions for query 'who is incharge of PR department': ['who is incharge of PR department', '1. Public Relations Officer (PRO)', '2. Director of Public Relations', '3. Head of Public Relations Division', '4. Chief Public Relations Officer (CPRO)', '5. Publicity and Information Officer']
+2025-10-31 05:20:52,423 [INFO] Combined dynamic expansions for 'who is incharge of PR department': ['3. Head of Public Relations Division', '1. Public Relations Officer (PRO)', '5. Publicity and Information Officer', '2. Director of Public Relations', 'who is incharge of PR department', '4. Chief Public Relations Officer (CPRO)']
+2025-10-31 05:20:52,423 [INFO] Full Query Expansion for 'who is incharge of PR department': ['3. Head of Public Relations Division', '5. Publicity and Information Officer', '1. Public Relations Officer (PRO)', 'Who is responsible for the PR division?', 'Who oversees the Public Relations department?', '2. Director of Public Relations', 'who is incharge of PR department', 'Who manages the Public Relations office?', '4. Chief Public Relations Officer (CPRO)']
+2025-10-31 05:20:55,011 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:20:55,012 [INFO] User: who is incharge of PR department
+AI: The Information and Public Relations (PR) Department in the Uttar Pradesh Government is headed by:
+
+1. **Shri Sanjay Prasad, IAS** - Principal Secretary.  
+2. **Shri Vishal Singh, IAS** - Director of Information and Public Relations.
+
+How may I assist you further?  
+
+Thank you for contacting the Uttar Pradesh Government Support Portal. Have a good day.
+2025-10-31 05:21:40,915 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:21:40,916 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:21:42,182 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:21:42,194 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:21:42,532 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:21:42,779 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:21:42,901 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:21:49,350 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:21:49,350 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:21:50,663 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:21:50,677 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:21:51,008 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:21:51,196 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:21:51,254 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:21:56,452 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:21:57,976 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:21:57,977 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head of Government', "4. Hon'ble Chief Minister", '5. Head of State Administration']
+2025-10-31 05:21:57,977 [INFO] Combined dynamic expansions for 'who is the cm': ["4. Hon'ble Chief Minister", '1. Chief Minister', '3. State Head of Government', '2. CM', 'who is the cm', '5. Head of State Administration']
+2025-10-31 05:21:57,977 [INFO] Full Query Expansion for 'who is the cm': ['Who holds the position of CM?', "4. Hon'ble Chief Minister", '1. Chief Minister', '3. State Head of Government', 'Who is the Chief Minister?', '2. CM', 'Who currently serves as the Chief Executive of the state?', 'who is the cm', '5. Head of State Administration']
+2025-10-31 05:22:00,364 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:22:00,365 [INFO] User: who is the cm
+AI: The information is not available in the provided records.
+2025-10-31 05:25:07,793 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:25:09,350 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:25:09,351 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head', '4. Head of State Government', '5. Council of Ministers Leader']
+2025-10-31 05:25:09,351 [INFO] Combined dynamic expansions for 'who is the cm': ['1. Chief Minister', '2. CM', '5. Council of Ministers Leader', 'who is the cm', '3. State Head', '4. Head of State Government']
+2025-10-31 05:25:09,351 [INFO] Full Query Expansion for 'who is the cm': ['1. Chief Minister', 'Who is the Chief Minister?', '2. CM', '5. Council of Ministers Leader', 'Who serves as the head of the state government?', 'who is the cm', '3. State Head', 'Who currently holds the position of CM?', '4. Head of State Government']
+2025-10-31 05:25:11,686 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:25:11,686 [INFO] User: who is the cm
+AI: The information is not available in the provided records.
+2025-10-31 05:40:24,946 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:40:24,946 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:40:26,314 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:40:26,329 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:40:26,673 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:40:26,877 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:40:26,939 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:40:59,147 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:41:00,674 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:41:00,675 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head of Government', '4. Head of State Executive', '5. Council of Ministers Leader']
+2025-10-31 05:41:00,675 [INFO] Combined dynamic expansions for 'who is the cm': ['2. CM', '5. Council of Ministers Leader', '4. Head of State Executive', 'who is the cm', '1. Chief Minister', '3. State Head of Government']
+2025-10-31 05:41:00,675 [INFO] Full Query Expansion for 'who is the cm': ['2. CM', '5. Council of Ministers Leader', 'Who serves as the head of the state government?', '4. Head of State Executive', 'who is the cm', 'Who is the chief minister?', '1. Chief Minister', '3. State Head of Government', 'Who holds the position of CM?']
+2025-10-31 05:41:01,130 [INFO] search_rag: expansions=['2. CM', '5. Council of Ministers Leader', 'Who serves as the head of the state government?', '4. Head of State Executive', 'who is the cm', 'Who is the chief minister?', '1. Chief Minister', '3. State Head of Government', 'Who holds the position of CM?']
+2025-10-31 05:41:01,130 [INFO] search_rag: vector_docs=270, bm25_docs=270
+2025-10-31 05:41:03,867 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:41:03,868 [INFO] User: who is the cm
+AI: The Chief Minister of Uttar Pradesh is Shri Yogi Adityanath. How may I assist you further?
+2025-10-31 05:43:19,397 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:43:19,397 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:43:20,663 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:43:20,677 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:43:21,013 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:43:21,210 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:43:21,272 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:43:27,614 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:43:27,614 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:43:28,901 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:43:28,914 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:43:29,250 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:43:29,443 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:43:29,497 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:43:35,201 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:43:36,957 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:43:36,957 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head', '4. Head of State Government', '5. State Chief Executive']
+2025-10-31 05:43:36,957 [INFO] Combined dynamic expansions for 'who is the cm': ['3. State Head', '5. State Chief Executive', 'who is the cm', '1. Chief Minister', '2. CM', '4. Head of State Government']
+2025-10-31 05:43:36,957 [INFO] Full Query Expansion for 'who is the cm': ['3. State Head', '5. State Chief Executive', 'who is the cm', '1. Chief Minister', '2. CM', '4. Head of State Government', 'Who is the Chief Minister?', 'Who serves as the head of the state government?', 'Who holds the position of CM?']
+2025-10-31 05:43:39,329 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:43:39,329 [INFO] User: who is the cm
+AI: The information is not available in the provided records.
+2025-10-31 05:44:25,789 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:44:25,789 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:44:27,074 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:44:27,088 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:44:27,429 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:44:27,626 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:44:27,689 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:44:32,773 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:44:34,260 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:44:34,260 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head of Government', "4. Hon'ble Chief Minister", '5. Head of State Executive']
+2025-10-31 05:44:34,260 [INFO] Combined dynamic expansions for 'who is the cm': ['who is the cm', '5. Head of State Executive', '2. CM', '1. Chief Minister', "4. Hon'ble Chief Minister", '3. State Head of Government']
+2025-10-31 05:44:34,260 [INFO] Full Query Expansion for 'who is the cm': ['1. Chief Minister', 'who is the cm', 'Who serves as the CM (Chief Minister)?', '5. Head of State Executive', 'Who holds the position of Chief Minister?', '2. CM', 'Who is the current head of the state government?', "4. Hon'ble Chief Minister", '3. State Head of Government']
+2025-10-31 05:44:37,362 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:44:37,363 [INFO] User: who is the cm
+AI: The Chief Minister of Uttar Pradesh is Shri Yogi Adityanath. How may I assist you further?
+2025-10-31 05:44:51,168 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:44:52,831 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:44:52,832 [INFO] Dynamic LLM expansions for query 'name the cabinet ministers': ['name the cabinet ministers', '1. Union Ministers', '2. Members of the Council of Ministers', '3. Central Ministers', '4. Ministers of the Government of India', '5. Cabinet Members']
+2025-10-31 05:44:52,832 [INFO] Combined dynamic expansions for 'name the cabinet ministers': ['3. Central Ministers', '5. Cabinet Members', '2. Members of the Council of Ministers', 'name the cabinet ministers', '4. Ministers of the Government of India', '1. Union Ministers']
+2025-10-31 05:44:52,832 [INFO] Full Query Expansion for 'name the cabinet ministers': ['identify the government ministers', 'list the members of the cabinet', '5. Cabinet Members', '3. Central Ministers', '2. Members of the Council of Ministers', '1. Union Ministers', 'provide the names of the cabinet officials', '4. Ministers of the Government of India', 'name the cabinet ministers']
+2025-10-31 05:44:56,928 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:44:56,929 [INFO] User: name the cabinet ministers
+AI: The information about all the Cabinet Ministers of Uttar Pradesh is not fully available in the provided records. However, based on the available data, here are some of the Cabinet Ministers:
+
+1. **Shri Suresh Kumar Khanna** - Finance and Parliamentary Affairs  
+2. **Shri Surya Pratap Shahi** - Agriculture, Agricultural Education, and Agricultural Research  
+3. **Shri Swatantra Dev Singh** - Jal Shakti and Flood Control  
+4. **Smt. Baby Rani Maurya** - Women's Welfare, Child Development, and Nutrition  
+5. **Shri Sanjay Nishad** - Fisheries  
+6. **Shri Laxmi Narayan Chaudhary** - Sugarcane Development and Sugar Industry  
+7. **Shri Yogendra Upadhyay** - Higher Education  
+8. **Shri Arvind Kumar Sharma** - Urban Development  
+
+For a complete and updated list of Cabinet Ministers and their respective ministries, you may refer to the official website of the Uttar Pradesh Government. If you need further assistance, please let me know.  
+
+Thank you for contacting the Uttar Pradesh Government Support Portal. Have a good day.
+2025-10-31 05:55:57,263 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:55:57,263 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:55:58,622 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:55:58,635 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:55:58,972 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:55:59,178 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:55:59,247 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:57:16,997 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:57:16,997 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:57:18,403 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:57:18,417 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:57:18,748 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:57:18,944 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:57:18,994 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:57:25,430 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 05:57:25,430 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 05:57:26,743 [INFO] Loading faiss with AVX2 support.
+2025-10-31 05:57:26,757 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 05:57:27,089 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 05:57:27,290 [INFO] Use pytorch device: cuda:0
+2025-10-31 05:57:27,339 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 05:57:30,160 [INFO] Processing user query: 'who is the cm'
+2025-10-31 05:57:30,161 [INFO] Initiating RAG search for query: 'who is the cm'
+2025-10-31 05:57:32,543 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:57:34,690 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:57:34,690 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head of Government', "4. Hon'ble Chief Minister", '5. Head of State Executive']
+2025-10-31 05:57:34,691 [INFO] Combined dynamic expansions for 'who is the cm': ["4. Hon'ble Chief Minister", '1. Chief Minister', '3. State Head of Government', 'who is the cm', '5. Head of State Executive', '2. CM']
+2025-10-31 05:57:34,691 [INFO] Full Query Expansion for 'who is the cm': ['Who holds the position of Chief Minister?', "4. Hon'ble Chief Minister", '1. Chief Minister', '3. State Head of Government', 'who is the cm', '5. Head of State Executive', '2. CM', 'Who is the current head of the state government?', 'Who serves as the CM (Chief Minister)?']
+2025-10-31 05:57:34,691 [INFO] Query expanded to: ['Who holds the position of Chief Minister?', "4. Hon'ble Chief Minister", '1. Chief Minister', '3. State Head of Government', 'who is the cm', '5. Head of State Executive', '2. CM', 'Who is the current head of the state government?', 'Who serves as the CM (Chief Minister)?']
+2025-10-31 05:57:34,916 [INFO] Vector search for 'Who holds the position of Chief Minister?' found 30 documents.
+2025-10-31 05:57:34,940 [INFO] BM25 search for 'Who holds the position of Chief Minister?' found 30 documents.
+2025-10-31 05:57:34,952 [INFO] Vector search for '4. Hon'ble Chief Minister' found 30 documents.
+2025-10-31 05:57:34,962 [INFO] BM25 search for '4. Hon'ble Chief Minister' found 30 documents.
+2025-10-31 05:57:34,975 [INFO] Vector search for '1. Chief Minister' found 30 documents.
+2025-10-31 05:57:34,983 [INFO] BM25 search for '1. Chief Minister' found 30 documents.
+2025-10-31 05:57:34,994 [INFO] Vector search for '3. State Head of Government' found 30 documents.
+2025-10-31 05:57:35,008 [INFO] BM25 search for '3. State Head of Government' found 30 documents.
+2025-10-31 05:57:35,019 [INFO] Vector search for 'who is the cm' found 30 documents.
+2025-10-31 05:57:35,030 [INFO] BM25 search for 'who is the cm' found 30 documents.
+2025-10-31 05:57:35,041 [INFO] Vector search for '5. Head of State Executive' found 30 documents.
+2025-10-31 05:57:35,055 [INFO] BM25 search for '5. Head of State Executive' found 30 documents.
+2025-10-31 05:57:35,067 [INFO] Vector search for '2. CM' found 30 documents.
+2025-10-31 05:57:35,073 [INFO] BM25 search for '2. CM' found 30 documents.
+2025-10-31 05:57:35,084 [INFO] Vector search for 'Who is the current head of the state government?' found 30 documents.
+2025-10-31 05:57:35,108 [INFO] BM25 search for 'Who is the current head of the state government?' found 30 documents.
+2025-10-31 05:57:35,119 [INFO] Vector search for 'Who serves as the CM (Chief Minister)?' found 30 documents.
+2025-10-31 05:57:35,137 [INFO] BM25 search for 'Who serves as the CM (Chief Minister)?' found 30 documents.
+2025-10-31 05:57:35,137 [INFO] Total documents after vector and BM25 search: 540
+2025-10-31 05:57:35,137 [INFO] Unique documents after deduplication: 370
+2025-10-31 05:57:35,137 [INFO] Documents after merging semantic roles: 243
+2025-10-31 05:57:35,279 [INFO] Reranked and selected top 30 documents.
+2025-10-31 05:57:35,279 [INFO] Creating context block from 30 documents.
+2025-10-31 05:57:35,280 [INFO] Found 0 matching documents based on fuzzy search.
+2025-10-31 05:57:35,280 [WARNING] No fuzzy matches found. Falling back to top 10 documents for context.
+2025-10-31 05:57:35,280 [INFO] Final context block created with 10 unique texts.
+2025-10-31 05:57:37,099 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 05:57:37,100 [INFO] User: who is the cm
+AI: The information is not available in the provided records.
+2025-10-31 06:00:20,067 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:00:20,067 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:00:21,359 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:00:21,371 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:00:21,712 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:00:22,194 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:00:22,247 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:02:47,094 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:02:47,094 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:02:48,608 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:02:48,622 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:02:48,952 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:02:49,143 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:02:49,191 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:05:34,420 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:05:34,421 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:05:35,736 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:05:35,750 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:05:36,089 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:05:36,317 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:05:36,374 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:09:10,013 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:09:10,014 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:09:11,345 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:09:11,359 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:09:11,694 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:09:11,889 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:09:11,941 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:09:25,676 [INFO] Processing user query: 'who is the cm'
+2025-10-31 06:09:25,676 [INFO] Initiating RAG search for query: 'who is the cm'
+2025-10-31 06:09:27,325 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:09:28,888 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:09:28,888 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. State Head', '3. CM (abbreviation)', '4. Head of State Government', '5. Premier of the State']
+2025-10-31 06:09:28,889 [INFO] Combined dynamic expansions for 'who is the cm': ['4. Head of State Government', '1. Chief Minister', 'who is the cm', '3. CM (abbreviation)', '2. State Head', '5. Premier of the State']
+2025-10-31 06:09:28,889 [INFO] Full Query Expansion for 'who is the cm': ['Who serves as the CM of the region?', 'Who holds the position of Chief Minister?', '4. Head of State Government', '1. Chief Minister', 'who is the cm', '3. CM (abbreviation)', '2. State Head', 'Who is the current head of the state government?', '5. Premier of the State']
+2025-10-31 06:09:28,889 [INFO] Query expanded to: ['Who serves as the CM of the region?', 'Who holds the position of Chief Minister?', '4. Head of State Government', '1. Chief Minister', 'who is the cm', '3. CM (abbreviation)', '2. State Head', 'Who is the current head of the state government?', '5. Premier of the State']
+2025-10-31 06:09:29,118 [INFO] Vector search for 'Who serves as the CM of the region?' found 30 documents.
+2025-10-31 06:09:29,145 [INFO] BM25 search for 'Who serves as the CM of the region?' found 30 documents.
+2025-10-31 06:09:29,157 [INFO] Vector search for 'Who holds the position of Chief Minister?' found 30 documents.
+2025-10-31 06:09:29,174 [INFO] BM25 search for 'Who holds the position of Chief Minister?' found 30 documents.
+2025-10-31 06:09:29,186 [INFO] Vector search for '4. Head of State Government' found 30 documents.
+2025-10-31 06:09:29,199 [INFO] BM25 search for '4. Head of State Government' found 30 documents.
+2025-10-31 06:09:29,213 [INFO] Vector search for '1. Chief Minister' found 30 documents.
+2025-10-31 06:09:29,222 [INFO] BM25 search for '1. Chief Minister' found 30 documents.
+2025-10-31 06:09:29,233 [INFO] Vector search for 'who is the cm' found 30 documents.
+2025-10-31 06:09:29,245 [INFO] BM25 search for 'who is the cm' found 30 documents.
+2025-10-31 06:09:29,256 [INFO] Vector search for '3. CM (abbreviation)' found 30 documents.
+2025-10-31 06:09:29,267 [INFO] BM25 search for '3. CM (abbreviation)' found 30 documents.
+2025-10-31 06:09:29,278 [INFO] Vector search for '2. State Head' found 30 documents.
+2025-10-31 06:09:29,287 [INFO] BM25 search for '2. State Head' found 30 documents.
+2025-10-31 06:09:29,298 [INFO] Vector search for 'Who is the current head of the state government?' found 30 documents.
+2025-10-31 06:09:29,322 [INFO] BM25 search for 'Who is the current head of the state government?' found 30 documents.
+2025-10-31 06:09:29,333 [INFO] Vector search for '5. Premier of the State' found 30 documents.
+2025-10-31 06:09:29,347 [INFO] BM25 search for '5. Premier of the State' found 30 documents.
+2025-10-31 06:09:29,347 [INFO] Total documents after vector and BM25 search: 540
+2025-10-31 06:09:29,348 [INFO] Unique documents after deduplication: 360
+2025-10-31 06:09:29,348 [INFO] Documents after merging semantic roles: 235
+2025-10-31 06:09:29,518 [INFO] Reranked and selected top 30 documents.
+2025-10-31 06:09:29,518 [INFO] Creating context block from 30 documents.
+2025-10-31 06:09:29,519 [INFO] Found 0 matching documents based on fuzzy search.
+2025-10-31 06:09:29,519 [WARNING] No fuzzy matches found. Falling back to top 15 documents for context.
+2025-10-31 06:09:29,519 [INFO] Final context block created with 15 unique texts.
+2025-10-31 06:09:31,375 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:09:31,376 [INFO] User: who is the cm
+AI: The information is not available in the provided records.
+2025-10-31 06:13:35,966 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:13:35,966 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:13:37,297 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:13:37,310 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:13:37,648 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:13:37,841 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:13:37,893 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:13:38,048 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:13:38,048 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:13:39,580 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:13:39,749 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:13:39,805 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:13:47,790 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:13:49,264 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:13:49,265 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head of Government', "4. Hon'ble Chief Minister", '5. Head of State Executive']
+2025-10-31 06:13:49,265 [INFO] Combined dynamic expansions for 'who is the cm': ["4. Hon'ble Chief Minister", 'who is the cm', '3. State Head of Government', '2. CM', '5. Head of State Executive', '1. Chief Minister']
+2025-10-31 06:13:49,265 [INFO] Full Query Expansion for 'who is the cm': ['Who holds the position of CM?', "4. Hon'ble Chief Minister", 'who is the cm', '3. State Head of Government', 'Who serves as the head of the state government?', '2. CM', 'Who is the chief minister?', '5. Head of State Executive', '1. Chief Minister']
+2025-10-31 06:13:52,025 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:13:52,025 [INFO] User: who is the cm
+AI: The information is not available in the provided records.
+2025-10-31 06:17:41,114 [INFO] [FLOW] Loading FAISS index and embedding model | {}
+2025-10-31 06:17:41,115 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:17:41,115 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:17:42,373 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:17:42,386 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:17:42,729 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:17:42,729 [INFO] [FLOW] Loading CrossEncoder reranker | {}
+2025-10-31 06:17:42,922 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:17:42,974 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:17:42,974 [INFO] [FLOW] Loading BM25 index and documents from disk | {}
+2025-10-31 06:17:49,416 [INFO] [FLOW] Loading FAISS index and embedding model | {}
+2025-10-31 06:17:49,418 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:17:49,418 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:17:50,714 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:17:50,727 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:17:51,068 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:17:51,068 [INFO] [FLOW] Loading CrossEncoder reranker | {}
+2025-10-31 06:17:51,265 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:17:51,317 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:17:51,317 [INFO] [FLOW] Loading BM25 index and documents from disk | {}
+2025-10-31 06:17:51,471 [INFO] [FLOW] Loading FAISS index and embedding model | {}
+2025-10-31 06:17:51,472 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:17:51,472 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:17:53,038 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:17:53,038 [INFO] [FLOW] Loading CrossEncoder reranker | {}
+2025-10-31 06:17:53,219 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:17:53,273 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:17:53,273 [INFO] [FLOW] Loading BM25 index and documents from disk | {}
+2025-10-31 06:18:03,885 [INFO] [FLOW] API /chat endpoint called | {"user_query": "who is the cm"}
+2025-10-31 06:18:03,885 [INFO] [FLOW] process_user_query entry | {"user_query": "who is the cm", "history_len": 0}
+2025-10-31 06:18:03,885 [INFO] [FLOW] search_rag entry | {"query": "who is the cm", "k": 30, "rerank": true}
+2025-10-31 06:18:03,885 [INFO] [FLOW] expand_query entry | {"query": "who is the cm"}
+2025-10-31 06:18:06,383 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:18:06,389 [INFO] [FLOW] dynamic_expand_query entry | {"query": "who is the cm"}
+2025-10-31 06:18:06,389 [INFO] [FLOW] dynamic_expand_query_via_llm entry | {"query": "who is the cm"}
+2025-10-31 06:18:07,968 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:18:07,968 [INFO] [FLOW] dynamic_expand_query_via_llm exit | {"expansions": ["who is the cm", "1. Chief Minister", "2. CM", "3. State Head of Government", "4. Hon'ble Chief Minister", "5. Leader of the State Government"]}
+2025-10-31 06:18:07,968 [INFO] [FLOW] expand_titles_bidirectionally entry | {"text": "who is the cm"}
+2025-10-31 06:18:07,968 [INFO] [FLOW] expand_titles_bidirectionally exit | {"expansions": ["who is the cm"]}
+2025-10-31 06:18:07,968 [INFO] [FLOW] dynamic_expand_query exit | {"combined": ["4. Hon'ble Chief Minister", "2. CM", "3. State Head of Government", "who is the cm", "1. Chief Minister", "5. Leader of the State Government"]}
+2025-10-31 06:18:07,968 [INFO] [FLOW] expand_query exit | {"variations": ["Who is the current head of the state government?", "4. Hon'ble Chief Minister", "2. CM", "3. State Head of Government", "who is the cm", "1. Chief Minister", "Who holds the position of Chief Minister?", "5. Leader of the State Government", "Who serves as the CM (Chief Minister)?"]}
+2025-10-31 06:18:08,422 [INFO] [FLOW] merge_semantic_roles entry | {"num_docs": 354}
+2025-10-31 06:18:08,422 [INFO] [FLOW] merge_semantic_roles exit | {"merged_count": 232}
+2025-10-31 06:18:08,422 [INFO] [FLOW] rerank_context entry | {"query": "who is the cm", "num_docs": 232, "k": 30}
+2025-10-31 06:18:08,564 [INFO] [FLOW] rerank_context exit | {"top_doc_count": 30}
+2025-10-31 06:18:08,564 [INFO] [FLOW] search_rag exit | {"retrieved_doc_count": 30, "expansions": ["Who is the current head of the state government?", "4. Hon'ble Chief Minister", "2. CM", "3. State Head of Government", "who is the cm", "1. Chief Minister", "Who holds the position of Chief Minister?", "5. Leader of the State Government", "Who serves as the CM (Chief Minister)?"]}
+2025-10-31 06:18:08,564 [INFO] [FLOW] make_context_block entry | {"context_doc_count": 30, "all_queries": ["Who is the current head of the state government?", "4. Hon'ble Chief Minister", "2. CM", "3. State Head of Government", "who is the cm", "1. Chief Minister", "Who holds the position of Chief Minister?", "5. Leader of the State Government", "Who serves as the CM (Chief Minister)?"], "window_size": 1}
+2025-10-31 06:18:08,564 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,564 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 33.333333333333336, "result": false}
+2025-10-31 06:18:08,564 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,564 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 34.48275862068966, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.195046439628484, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.71428571428572, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 25.71428571428571, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.761904761904763, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 25.570776255707763, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.347826086956527, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 25.120772946859905, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.154589371980673, "result": false}
+2025-10-31 06:18:08,565 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.696682464454977, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.347826086956527, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.931623931623935, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.07407407407407, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.739130434782606, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.22222222222222, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.59414225941423, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.788546255506603, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.3175965665236, "result": false}
+2025-10-31 06:18:08,566 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 37.03703703703704, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 30.456852791878177, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.335347432024175, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.22222222222222, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.28116710875332, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.788546255506603, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.879120879120883, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.66960352422908, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 35.39823008849557, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 34.04255319148937, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who is the current head of the state government?", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.018348623853214, "result": false}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,567 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.047244094488192, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 32.25806451612904, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 13.33333333333333, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.844036697247708, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.529411764705888, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.459893048128343, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.44897959183674, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.28985507246377, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.826086956521742, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.826086956521742, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.3404255319149, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.323671497584538, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.905213270142173, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.761658031088082, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.188405797101453, "result": false}
+2025-10-31 06:18:08,568 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.096385542168676, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.444444444444443, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.588235294117652, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.809523809523814, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.710843373493976, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.436781609195403, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 14.28571428571429, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.195121951219512, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 10.169491525423723, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.588235294117652, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.383647798742132, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.588235294117652, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.66009852216748, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.878787878787882, "result": false}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "4. Hon'ble Chief Minister", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,569 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 13.157894736842103, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 7.476635514018692, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 8.21917808219178, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 3.57142857142857, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 3.2573289902280145, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.988023952095811, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.988023952095811, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.681818181818176, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 4.278074866310155, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 6.0975609756097615, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 6.0975609756097615, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.952380952380953, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 4.278074866310155, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.235602094240843, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.780346820809246, "result": false}
+2025-10-31 06:18:08,570 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.3475935828877, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 6.849315068493156, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 4.081632653061229, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.434782608695654, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.263157894736848, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 6.849315068493156, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 3.8961038961038974, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 3.472222222222221, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 1.9480519480519431, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 1.7964071856287456, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 4.347826086956519, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 7.194244604316546, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 5.434782608695654, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 3.2786885245901676, "result": false}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,571 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 4.137931034482756, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "2. CM", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 3.5211267605633756, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.8062015503876, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.47368421052632, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 13.245033112582782, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.158054711246201, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.105820105820104, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.047619047619047, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.181818181818176, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.181818181818176, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.354838709677423, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.354838709677423, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.947368421052634, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.181818181818176, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.7793427230047, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.512820512820518, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 15.311004784688997, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.047619047619047, "result": false}
+2025-10-31 06:18:08,572 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.431192660550455, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.47572815533981, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 15.094339622641506, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.190476190476186, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.590909090909093, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 14.193548387096778, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.727272727272732, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.921348314606739, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.417475728155342, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.391304347826086, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.417475728155342, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.46341463414634, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.952095808383234, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "3. State Head of Government", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 13.725490196078427, "result": false}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,573 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.130434782608695, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.160493827160494, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 7.638888888888884, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 7.619047619047614, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 13.714285714285712, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.571428571428566, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.956521739130432, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.282051282051286, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.790697674418606, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.790697674418606, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.5, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 10.256410256410254, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.05527638190955, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 13.259668508287293, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.282051282051286, "result": false}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,574 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.987012987012992, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 9.80392156862745, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.458333333333337, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.111111111111116, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 15.58441558441559, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 14.814814814814813, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 7.432432432432434, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 8.227848101265822, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 7.017543859649122, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.458333333333337, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 12.244897959183676, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 10.416666666666663, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.518324607329845, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 15.686274509803921, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "who is the cm", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 6.849315068493156, "result": false}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,575 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.168067226890752, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.176470588235297, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.64383561643836, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 10.031347962382442, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.99441340782123, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.99441340782123, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.085106382978722, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.085427135678387, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.318181818181824, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.318181818181824, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.88888888888889, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.085427135678387, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.748768472906406, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.37837837837838, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.085427135678387, "result": false}
+2025-10-31 06:18:08,576 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.518987341772156, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.346153846153843, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.3469387755102, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.831683168316836, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.518987341772156, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.07228915662651, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 11.333333333333329, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 9.375, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 8.092485549132943, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.3469387755102, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.51655629139073, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.3469387755102, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 15.384615384615385, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.382165605095537, "result": false}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "1. Chief Minister", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,577 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 10.81081081081081, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 34.96503496503497, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 34.862385321100916, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.88607594936709, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.991253644314867, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.556650246305416, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.586206896551722, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.35849056603774, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.802690582959645, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 28.000000000000004, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.000000000000004, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 28.431372549019606, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.00896860986547, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.431718061674005, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.794258373205736, "result": false}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,578 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 24.215246636771305, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.670329670329664, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 25.86206896551724, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.27272727272727, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.893805309734518, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 36.26373626373627, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 31.57894736842105, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.604938271604933, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.6046511627907, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.216216216216218, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.27272727272727, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.428571428571423, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 28.181818181818187, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 31.05022831050228, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 36.46408839779005, "result": false}
+2025-10-31 06:18:08,579 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who holds the position of Chief Minister?", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.625000000000004, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.629629629629626, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 33.66336633663366, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.233766233766232, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 15.522388059701498, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 22.564102564102562, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.53846153846154, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.568627450980394, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.534883720930228, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.833333333333336, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.875, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.408163265306122, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.465116279069772, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 21.00456621004566, "result": false}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,580 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 23.880597014925375, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.744186046511633, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.68965517241379, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.75, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.811320754716977, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.51376146788991, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.885057471264364, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.37362637362637, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.455696202531644, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 14.880952380952383, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 16.022099447513817, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.75471698113207, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.16167664670658, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.75471698113207, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.54028436018957, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.74566473988439, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "5. Leader of the State Government", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.307692307692314, "result": false}
+2025-10-31 06:18:08,581 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "Name: CM Computer Cell CM Computer Cell | Designation:  | Phone: 2226357, 2226358 - | Other:  | page: 51"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 32.85714285714286, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "Name: CM Recording | Designation:  | Phone:  | Other: Unit | page: 504"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 32.07547169811321, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "28. CM Computer Cell CM Computer Cell 2226357, 2226358 - \n29. Shri Krishna Pratap Singh Section Officer (Accounts)-1 2226360 - \n30. Shri Pradeep Kumar Singh Section Officer (Accounts)-2 2226359 - \n31. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-1 2226344 -"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.169329073482434, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "गया। \n \nPN-CM-Cabinet Decisions-03 July, 2025 \n \n13 \n \n=== page_261.txt === \nChief Minister Office (Parliamentary Affairs) \n \nSubjects Dealt with in the Chief Minister Office (Parliamentary Affairs) \n \n1- Description of the Section (Title)- Chief Minister's Office (Parliamentary Affairs) \n \n2- Administrative Structure:-"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.999999999999996, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "6.: 11. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 30.000000000000004, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "6.: 10. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2226027: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 30.000000000000004, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "6.: 13. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2226027: 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 27.751196172248804, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 11. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ajai Kumar Ojha, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.363636363636367, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "2.: 10. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289860, 2226111: 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.441624365482234, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "3.: 6. | Mr. Amit Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289622, 2226053: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.441624365482234, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "2.: 6. | Mr. Surendra Singh, Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289860, 2226111: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 28.855721393034827, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 10. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Brijesh Kumar, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289735 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.363636363636367, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 6. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.785714285714292, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "6.: 14. | Mr. Ishan Pratap Singh, Special Secretary to Chief Minister.: Mr. Vikas Sakharam Behere, Under Secretary to Chief Minister. | 2226027: 2226355 | :  | page: 143"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 28.155339805825243, "result": false}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 2. | Yogi Adityanath: Shri Keshav Prasad Maurya | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238217 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,582 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.363636363636367, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "-------: 6. | -------------------: Mr. Ishan Pratap Singh, Special Secretary to Chief Minister. | ------------------: 2226027 | :  | page: 143"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 29.05027932960894, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 13. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Bhaskar Chandra Kandpal, Deputy Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226352 | :  | page: 143"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 25.327510917030573, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 3. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Amit Singh, Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.728110599078335, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 3. | Yogi Adityanath: Shri Brajesh Pathak | Hon'ble Chief Minister: Deputy Chief Minister | 2289017, 2289010, 2289167, 2239234 (Fax): 2238088, 2213272 (Mukhya Bhawan) | :  | page: 50"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 25.11210762331838, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "Name: the Honorable Chief Minister through the sources mentioned in para 2.1. are brought to | Designation:  | Phone:  | Other: the | page: 138"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 33.5195530726257, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "Name: Legislative | Designation:  | Phone:  | Other: Assembly, Hon'ble Chairman of Legislative Council, Hon'ble Ministers, Chief Secretary, | page: 508"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 28.877005347593588, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "=== page_167.txt === \n32. Shri Akhilesh Kumar Awasthi Section Officer Chief Minister Office-2 2226363 - \n33. Shri Anurag Sinha Section Officer Chief Minister Office-3, Ghoshna Prakoshth 2226454, 2226461 - \n34. Shri Shurya Prakash Pandey Section Officer Chief Minister Office-4 2226464 -"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 18.691588785046733, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "(a) \"Act\" means the Uttar Pradesh Public Service (Reservation for Scheduled Castes, Scheduled Tribes \nand other Backward Classes) Act, 1994 \n(b) \"Appointing authority\" means the Director; \n(c) \"Citizen of India\" means a person who is or is deemed to be a citizen of India under Part II of the \nConstitution;"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 19.354838709677423, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "Group 'D' Service; \n \n(g) “Governor” means the Governor of Uttar Pradesh; \n \n(h) “Government” means the State Government of Uttar Pradesh; \n \n(i) “Member of the Service” means a person substantively appointed under these rules or the rules \nor orders in force prior to the commencement of these rules to a post in the cadre of the service;"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 17.438692098092645, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 16. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Singh, Under Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226452 | :  | page: 143"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.728110599078335, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "-------: 3. | -------------------: Mr. Amit Singh, Secretary to Chief Minister. | ------------------: 2289622, 2226053 | :  | page: 143"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 26.74418604651163, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "1.: 12. | Mr. Sanjay Prasad, Principal Secretary to Chief Minister.: Mr. Arvind Mohan, Joint Secretary to Chief Minister. | 2289009, 2226025, 2237048(Fax): 2226354 | :  | page: 143"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 25.806451612903224, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "On receipt of the minutes of the review meetings of the departments of the Government from the \nhigher level by the Hon'ble Chief Minister, they are registered in the register and"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 28.70370370370371, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "Name: Chief Minister to the concerned person by | Designation:  | Phone:  | Other: e-mail/post on behalf of Hon'ble Chief Minister. | page: 71"}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 33.70786516853933, "result": false}
+2025-10-31 06:18:08,583 [INFO] [FLOW] fuzzy_title_in_text entry | {"query": "Who serves as the CM (Chief Minister)?", "text": "2. State-level office bearers of all political parties except the state-level President/Vice \nPresident/General Secretary of political parties (that include office bearers of different cells of \npolitical parties), former legislators, editors and bureau chiefs of major newspapers."}
+2025-10-31 06:18:08,584 [INFO] [FLOW] fuzzy_title_in_text exit | {"score": 20.189274447949522, "result": false}
+2025-10-31 06:18:08,584 [INFO] [FLOW] make_context_block exit | {"selected_doc_count": 10}
+2025-10-31 06:18:08,584 [INFO] [FLOW] llm_chat_completion entry | {"history_len": 0, "user_message": "who is the cm", "context_block_len": 1792}
+2025-10-31 06:18:08,584 [INFO] [FLOW] detect_language entry | {"text": "who is the cm"}
+2025-10-31 06:18:09,126 [INFO] [FLOW] detect_language exit | {"lang": "en"}
+2025-10-31 06:18:09,126 [INFO] [FLOW] llm_chat_completion RAG present | {"rag_present": true}
+2025-10-31 06:18:10,552 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:18:10,553 [INFO] [FLOW] llm_chat_completion reply based on RAG | {"reply": "The information is not available in the provided records."}
+2025-10-31 06:18:10,553 [INFO] [FLOW] llm_chat_completion exit | {"reply": "The information is not available in the provided records."}
+2025-10-31 06:18:10,553 [INFO] [FLOW] process_user_query exit | {"reply": "The information is not available in the provided records.", "new_history_len": 2}
+2025-10-31 06:18:10,553 [INFO] [FLOW] API /chat response | {"reply": "The information is not available in the provided records.", "history_len": 2}
+2025-10-31 06:24:07,209 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:24:07,209 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:24:08,468 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:24:08,482 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:24:08,824 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:24:09,148 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:24:09,204 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:24:15,542 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:24:17,173 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:24:17,174 [INFO] Dynamic LLM expansions for query 'who is the cm': ['who is the cm', '1. Chief Minister', '2. CM', '3. State Head of Government', "4. Hon'ble Chief Minister", '5. Head of State Executive']
+2025-10-31 06:24:17,174 [INFO] Combined dynamic expansions for 'who is the cm': ['2. CM', '3. State Head of Government', 'who is the cm', "4. Hon'ble Chief Minister", '1. Chief Minister', '5. Head of State Executive']
+2025-10-31 06:24:17,174 [INFO] Full Query Expansion for 'who is the cm': ['Who is the current head of the state government?', '2. CM', '3. State Head of Government', 'who is the cm', 'Who serves as the CM of the region?', "4. Hon'ble Chief Minister", '1. Chief Minister', '5. Head of State Executive', 'Who holds the position of Chief Minister?']
+2025-10-31 06:24:20,664 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:24:20,664 [INFO] User: who is the cm
+AI: The Chief Minister of Uttar Pradesh is Shri Yogi Adityanath. How may I assist you further?
+2025-10-31 06:51:08,231 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:51:08,231 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:51:09,494 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:51:09,508 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:51:09,842 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:51:10,348 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:51:10,418 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:51:10,571 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:51:10,571 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:51:12,126 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:51:12,594 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:51:12,647 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:51:14,531 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:51:16,155 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:51:19,807 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:51:19,808 [INFO] User: who are incharge of public relations
+AI: The Information and Public Relations (PR) Department in the Uttar Pradesh Government is headed by:
+
+1. **Shri Sanjay Prasad, IAS** - Principal Secretary.  
+2. **Shri Vishal Singh, IAS** - Director of Information and Public Relations.
+
+How may I assist you further?
+2025-10-31 06:54:56,493 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:54:56,493 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:54:57,803 [INFO] Loading faiss with AVX2 support.
+2025-10-31 06:54:57,817 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 06:54:58,160 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:54:58,345 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:54:58,401 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:54:58,555 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 06:54:58,556 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 06:55:00,070 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 06:55:00,251 [INFO] Use pytorch device: cuda:0
+2025-10-31 06:55:00,318 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 06:55:02,278 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:55:03,971 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:55:07,801 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 06:55:07,802 [INFO] User: who are incharge of public relations
+AI: The Information and Public Relations (PR) Department in the Uttar Pradesh Government is headed by:
+
+1. **Shri Sanjay Prasad, IAS** - Principal Secretary.  
+2. **Shri Vishal Singh, IAS** - Director of Information and Public Relations.
+
+How may I assist you further?
+2025-10-31 07:08:59,951 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 07:08:59,951 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 07:09:01,246 [INFO] Loading faiss with AVX2 support.
+2025-10-31 07:09:01,260 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 07:09:01,593 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 07:09:01,787 [INFO] Use pytorch device: cuda:0
+2025-10-31 07:09:01,838 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 07:09:01,994 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 07:09:01,994 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 07:09:03,535 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 07:09:03,737 [INFO] Use pytorch device: cuda:0
+2025-10-31 07:09:03,788 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 07:09:05,609 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:09:07,228 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:09:10,935 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:09:10,936 [INFO] User: who are incharge of public relations
+AI: The Information and Public Relations (PR) Department in the Uttar Pradesh Government is headed by:
+
+1. **Shri Sanjay Prasad, IAS** - Principal Secretary.  
+2. **Shri Vishal Singh, IAS** - Director of Information and Public Relations.
+
+How may I assist you further?
+2025-10-31 07:09:27,114 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:09:28,635 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:09:31,413 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:09:31,414 [INFO] User: who is the cm
+AI: The Chief Minister of Uttar Pradesh is Shri Yogi Adityanath. How may I assist you further?
+2025-10-31 07:12:47,876 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 07:12:47,876 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 07:12:49,154 [INFO] Loading faiss with AVX2 support.
+2025-10-31 07:12:49,167 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 07:12:49,506 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 07:12:49,725 [INFO] Use pytorch device: cuda:0
+2025-10-31 07:12:49,780 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 07:12:49,937 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 07:12:49,937 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 07:12:51,579 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 07:12:51,789 [INFO] Use pytorch device: cuda:0
+2025-10-31 07:12:51,839 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 07:13:38,086 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:13:40,247 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:13:43,769 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:13:43,770 [INFO] User: who is the cm
+AI: The Chief Minister of Uttar Pradesh is Shri Yogi Adityanath. How may I assist you further?
+2025-10-31 07:13:43,772 [ERROR] API error: 1 validation error for ChatResponse
+history
+  Field required [type=missing, input_value={'reply': 'The Chief Mini... I assist you further?'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2025-10-31 07:14:26,312 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 07:14:26,312 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 07:14:27,600 [INFO] Loading faiss with AVX2 support.
+2025-10-31 07:14:27,614 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 07:14:27,952 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 07:14:28,215 [INFO] Use pytorch device: cuda:0
+2025-10-31 07:14:28,273 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 07:14:28,429 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 07:14:28,429 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 07:14:30,071 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 07:14:30,248 [INFO] Use pytorch device: cuda:0
+2025-10-31 07:14:30,301 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 07:14:35,208 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:14:36,751 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:14:40,270 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:14:40,271 [INFO] User: who is the cm
+AI: The Chief Minister of Uttar Pradesh is Shri Yogi Adityanath. How may I assist you further?
+2025-10-31 07:16:14,009 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 07:16:14,009 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 07:16:15,308 [INFO] Loading faiss with AVX2 support.
+2025-10-31 07:16:15,321 [INFO] Successfully loaded faiss with AVX2 support.
+2025-10-31 07:16:15,659 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 07:16:15,935 [INFO] Use pytorch device: cuda:0
+2025-10-31 07:16:15,985 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 07:16:16,140 [INFO] Use pytorch device_name: cuda:0
+2025-10-31 07:16:16,140 [INFO] Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+2025-10-31 07:16:17,696 [INFO] ✅ FAISS index loaded successfully.
+2025-10-31 07:16:17,880 [INFO] Use pytorch device: cuda:0
+2025-10-31 07:16:17,935 [INFO] ✅ CrossEncoder reranker loaded successfully.
+2025-10-31 07:16:19,951 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:16:21,545 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:16:25,056 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:16:25,057 [INFO] User: who is the cm
+AI: The Chief Minister of Uttar Pradesh is Shri Yogi Adityanath. How may I assist you further?
+2025-10-31 07:16:59,395 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:17:00,966 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:17:03,688 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:17:03,689 [INFO] User: who are the deputy cm
+AI: The Deputy Chief Ministers of Uttar Pradesh are:
+
+1. **Shri Keshav Prasad Maurya**  
+2. **Shri Brajesh Pathak**  
+
+How may I assist you further?
+2025-10-31 07:17:32,452 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:17:34,112 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:17:38,066 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:17:38,067 [INFO] User: who are the cabinet ministers
+AI: The information about all the Cabinet Ministers of Uttar Pradesh is not fully available in the provided records. However, based on the available data, here are some of the Cabinet Ministers:
+
+1. **Shri Suresh Kumar Khanna** - Finance and Parliamentary Affairs  
+2. **Shri Surya Pratap Shahi** - Agriculture, Agricultural Education, and Agricultural Research  
+3. **Shri Swatantra Dev Singh** - Jal Shakti and Flood Control  
+4. **Smt. Baby Rani Maurya** - Women's Welfare, Child Development, and Nutrition  
+5. **Shri Sanjay Nishad** - Fisheries  
+6. **Shri Laxmi Narayan Chaudhary** - Sugarcane Development and Sugar Industry  
+7. **Shri Yogendra Upadhyay** - Higher Education  
+8. **Shri Arvind Kumar Sharma** - Urban Development  
+
+For a complete and updated list of Cabinet Ministers and their respective ministries, you may refer to the official website of the Uttar Pradesh Government. If you need further assistance, please let me know.  
+
+Thank you for contacting the Uttar Pradesh Government Support Portal. Have a good day.
+2025-10-31 07:18:02,900 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:18:04,520 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:18:07,309 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:18:07,310 [INFO] User: who is the minister for fisheries
+AI: The Minister for Fisheries in Uttar Pradesh is **Shri Sanjay Nishad**.  
+
+How may I assist you further?  
+
+Thank you for contacting the Uttar Pradesh Government Support Portal. Have a good day.
+2025-10-31 07:31:53,496 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:31:55,260 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:31:58,039 [INFO] HTTP Request: POST https://ai-gptsouth01111234130006870.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 200 OK"
+2025-10-31 07:31:58,040 [INFO] User: who is incharge for PR department
+AI: The Information and Public Relations (PR) Department in the Uttar Pradesh Government is headed by:
+
+1. **Shri Sanjay Prasad, IAS** - Principal Secretary.  
+2. **Shri Vishal Singh, IAS** - Director of Information and Public Relations.
+
+How may I assist you further?

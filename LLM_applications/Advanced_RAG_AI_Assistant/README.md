@@ -13,9 +13,8 @@ This project is a Retrieval-Augmented Generation (RAG) AI assistant that provide
 
 ## Project Structure
 
+- **`main.py`:** The main script for the FastAPI application, containing the core RAG logic and the FastAPI server.
 - **`processing.py`:** The core script where the RAG logic was developed and tested. It can be run as a command-line interface.
-- **`app.py` and `model.py`:** These files are used for the FastAPI application. `model.py` contains the core RAG logic, and `app.py` creates the FastAPI server.
-- **`main.py`:** A unified script that contains all the logic for the application. It can be run as a FastAPI server or as a CLI.
 - **`requirements.txt`:** A file containing all the Python packages required to run the project.
 - **`.env`:** A file for storing environment variables, such as API keys and endpoints.
 - **`embedding/`:** A directory containing the script and data for generating the embeddings.
@@ -74,7 +73,7 @@ The main dependencies are:
 To run the application as a FastAPI server, run the following command:
 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 8000
+python main.py
 ```
 
 You can then send a POST request to the `/chat` endpoint with a JSON payload containing the user's query:

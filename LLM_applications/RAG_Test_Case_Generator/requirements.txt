@@ -1,0 +1,46 @@
+# --------------------
+# LangChain / RAG
+# --------------------
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0
+langchain-huggingface>=0.1.0
+
+# --------------------
+# Vector store / embeddings / reranking
+# --------------------
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+rank-bm25>=0.2.2
+
+# --------------------
+# Document parsing
+# --------------------
+python-docx>=1.1.0
+PyMuPDF>=1.23.0
+pillow>=10.0.0
+
+# --------------------
+# Qwen-VL / Vision
+# --------------------
+torch>=2.2.0
+torchvision>=0.17.0
+transformers>=4.40.0
+accelerate>=0.30.0
+
+# --------------------
+# Core utilities
+# --------------------
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# --------------------
+# OpenAI / Azure OpenAI client
+# --------------------
+openai>=1.0.0
+
+# --------------------
+# Web UI
+# --------------------
+streamlit>=1.52.0

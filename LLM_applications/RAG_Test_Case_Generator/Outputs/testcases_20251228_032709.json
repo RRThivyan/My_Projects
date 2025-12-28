@@ -1,0 +1,141 @@
+{
+  "query": "Generate use cases and test cases for the dashboard feature focusing on chart management, chart limit, and real-time updates.",
+  "use_cases": [
+    {
+      "use_case_title": "Manage Charts within a Dashboard (Add, Configure, Edit, Delete, Resize, Rearrange) with Chart Limit Enforcement",
+      "goal": "Allow a user to add and manage multiple charts within a dashboard while enforcing the maximum limit of 10 charts.",
+      "preconditions": [
+        "User is authenticated and authorized to edit the selected dashboard (Admin or Editor role as per access control).",
+        "At least one dashboard exists and is accessible to the user.",
+        "Supported chart types (Bar, Line, Pie, Scatter Plot, Heatmap, Funnel Chart, Gauge Chart, Custom Charts if applicable) are available in the UI.",
+        "At least one valid data source is already connected and selectable for charts."
+      ],
+      "test_data": {
+        "dashboard_id": "DASH-001",
+        "existing_charts_count": "0",
+        "valid_data_source": "PostgreSQL_DB_1",
+        "invalid_data_source": "DISCONNECTED_SOURCE",
+        "chart_types": [
+          "Bar Chart",
+          "Line Chart",
+          "Pie Chart",
+          "Scatter Plot",
+          "Heatmap",
+          "Funnel Chart",
+          "Gauge Chart"
+        ],
+        "max_charts_per_dashboard": 10
+      },
+      "steps": [
+        "Open dashboard DASH-001 in edit mode.",
+        "Add a new chart and select a supported chart type (e.g., Bar Chart).",
+        "Configure the chart by selecting a valid data source, defining X-axis and Y-axis values, choosing color schemes and styles, enabling legends, labels, and gridlines, and applying filters and sorting.",
+        "Save the chart configuration and verify the chart is added to the dashboard.",
+        "Edit the existing chart by changing the data source, chart type, chart labels, and axis settings, then save the changes.",
+        "Delete the chart and confirm the deletion when the confirmation prompt appears.",
+        "Add charts one by one until the dashboard contains 10 charts.",
+        "Attempt to add an 11th chart to the same dashboard.",
+        "Resize an existing chart using drag-and-drop to change its size within the dashboard grid.",
+        "Rearrange multiple charts using drag-and-drop to change their positions within the dashboard grid."
+      ],
+      "expected_results": [
+        "The dashboard opens in edit mode and displays any existing charts (if present).",
+        "The system allows selection of any supported chart type when adding a chart.",
+        "The chart configuration UI allows selection of data source, X-axis, Y-axis, color schemes, styles, legends, labels, gridlines, filters, and sorting as described.",
+        "After saving, the new chart appears on the dashboard and renders data from the selected data source according to the configuration.",
+        "Editing the chart updates its data source, type, labels, and axis settings, and the chart re-renders with the new configuration.",
+        "When deleting a chart, a confirmation prompt is displayed; upon confirmation, the chart is removed from the dashboard.",
+        "The system allows adding charts up to a total of 10 charts on the dashboard without error.",
+        "When attempting to add an 11th chart, the system prevents the addition and displays an error message indicating that the chart limit (10) has been reached.",
+        "Charts can be resized via drag-and-drop, and the new size is reflected in the dashboard layout.",
+        "Charts can be rearranged via drag-and-drop, and their new positions are reflected in the dashboard grid layout."
+      ],
+      "negative_cases": [
+        "Attempt to configure a chart with an invalid or disconnected data source (e.g., DISCONNECTED_SOURCE) and verify that the system prevents saving or shows an appropriate error.",
+        "Attempt to save a chart without required configuration (e.g., missing X-axis or Y-axis values) and verify that validation errors are shown and the chart is not saved.",
+        "Attempt to delete a chart but cancel at the confirmation prompt and verify that the chart remains on the dashboard.",
+        "Attempt to add an 11th chart when 10 charts already exist and verify that the system shows an error message and does not add the chart.",
+        "Attempt to resize or rearrange charts when the user has only Viewer role and verify that drag-and-drop is not allowed or changes are not persisted."
+      ],
+      "boundary_cases": [
+        "Add charts until there are exactly 9 charts, then add the 10th chart and verify it is allowed and no error is shown.",
+        "With exactly 10 charts present, attempt to add one more chart and verify that the error message is displayed and the total remains 10.",
+        "Resize a chart to the minimum allowed size in the grid and verify that it remains usable and visible.",
+        "Resize a chart to the maximum allowed size in the grid (e.g., spanning all columns) and verify that layout remains stable.",
+        "Rapidly add and delete charts near the limit (e.g., add to 10, delete 1, add again) and verify that the chart count and limit enforcement remain correct."
+      ]
+    },
+    {
+      "use_case_title": "Configure and Verify Real-time Data Updates for Charts",
+      "goal": "Allow a user to configure auto-refresh intervals for charts and verify that dashboards support real-time data streaming and updates.",
+      "preconditions": [
+        "User is authenticated and has access to view and edit the dashboard.",
+        "Dashboard with at least one chart already exists and is connected to a data source that supports real-time data streaming or frequent updates.",
+        "The system supports configuration of auto-refresh intervals (1s, 5s, 10s, manual refresh)."
+      ],
+      "test_data": {
+        "dashboard_id": "DASH-RT-001",
+        "chart_id": "CH-RT-001",
+        "data_source": "REALTIME_API_WS",
+        "auto_refresh_intervals": [
+          "1s",
+          "5s",
+          "10s",
+          "manual"
+        ],
+        "simulated_data_changes": [
+          "value_increase",
+          "value_decrease",
+          "new_data_point"
+        ]
+      },
+      "steps": [
+        "Open dashboard DASH-RT-001 that contains chart CH-RT-001 connected to REALTIME_API_WS.",
+        "Configure the chart or dashboard settings to set the auto-refresh interval to 1s.",
+        "Trigger or simulate a data change in the underlying data source (e.g., new data point or updated values).",
+        "Observe the chart for several seconds and verify that it updates in near real-time according to the 1s interval.",
+        "Change the auto-refresh interval to 5s and repeat the data change in the data source.",
+        "Observe the chart and verify that updates occur approximately every 5 seconds.",
+        "Change the auto-refresh interval to 10s and repeat the data change.",
+        "Observe the chart and verify that updates occur approximately every 10 seconds.",
+        "Set the refresh mode to manual and trigger additional data changes in the data source.",
+        "Verify that the chart does not update automatically and only refreshes when the user manually triggers a refresh (e.g., clicking a refresh button)."
+      ],
+      "expected_results": [
+        "The dashboard and chart load successfully with the current data from REALTIME_API_WS.",
+        "The user can select and save an auto-refresh interval of 1s for the chart or dashboard.",
+        "When the data source changes, the chart updates in near real-time, reflecting new or changed data according to the 1s interval.",
+        "Changing the auto-refresh interval to 5s is saved successfully, and the chart updates approximately every 5 seconds when data changes.",
+        "Changing the auto-refresh interval to 10s is saved successfully, and the chart updates approximately every 10 seconds when data changes.",
+        "When the refresh mode is set to manual, the chart does not update automatically despite data changes in the source.",
+        "When the user manually triggers a refresh in manual mode, the chart fetches and displays the latest data from the data source."
+      ],
+      "negative_cases": [
+        "Set an auto-refresh interval and then disconnect the data source; verify that the chart handles the failure gracefully (e.g., shows an error state or no data) without breaking the dashboard.",
+        "Attempt to set an unsupported auto-refresh interval value (if the UI allows free input) and verify that the system rejects it or normalizes it to a supported value.",
+        "Simulate a scenario where the data source returns invalid or malformed data during a real-time update and verify that the chart does not crash and shows an appropriate error or fallback.",
+        "Switch rapidly between different auto-refresh intervals (1s, 5s, 10s, manual) and verify that no duplicate or overlapping refresh requests cause inconsistent chart behavior."
+      ],
+      "boundary_cases": [
+        "Run the dashboard with a 1s auto-refresh interval for an extended period and verify that performance remains acceptable and the dashboard continues to update without degradation (within non-functional performance expectations).",
+        "Set the auto-refresh interval to the highest available value (10s) and verify that updates still occur reliably at that interval.",
+        "Switch from auto-refresh (any interval) to manual mode while an update is in progress and verify that the system transitions cleanly without partial updates.",
+        "Open multiple charts on the same dashboard with different auto-refresh intervals and verify that each chart updates independently according to its configured interval."
+      ]
+    }
+  ],
+  "assumptions": [
+    "The UI exposes controls to add, configure, edit, delete, resize, and rearrange charts as described in the requirements.",
+    "Auto-refresh intervals (1s, 5s, 10s, manual) are configurable either per chart or per dashboard and are visible to the user.",
+    "Real-time data streaming is supported by at least one connected data source and is available in the test environment.",
+    "Role-based access control is implemented such that Admin and Editor can modify dashboards and charts, while Viewer cannot.",
+    "Error messages for exceeding chart limit and data source issues are user-visible, though exact wording is not specified."
+  ],
+  "missing_info": [
+    "Exact UI flows and locations of controls for chart management (e.g., where add/edit/delete buttons are placed).",
+    "Exact text and format of error messages when the chart limit is exceeded or when data source connections fail.",
+    "Whether auto-refresh intervals are configured at the chart level, dashboard level, or both.",
+    "Specific behavior when real-time data source is temporarily unavailable (e.g., retry strategy, timeout durations).",
+    "Minimum and maximum allowed chart sizes within the grid layout and any snapping rules for resizing."
+  ]
+}

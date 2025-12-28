@@ -1,0 +1,107 @@
+{
+  "query": "what is the hotel cost in paros",
+  "use_cases": [
+    {
+      "use_case_title": "View hotel search results and prices for Paros for given dates and occupancy",
+      "goal": "Verify that a user can see available properties in Paros with correct pricing information for the selected dates and occupancy.",
+      "preconditions": [
+        "User can access the Booking.com website.",
+        "Hotel Search feature is available and functional.",
+        "Search index contains properties for Paros with availability and prices."
+      ],
+      "test_data": {
+        "destination": "Paros",
+        "check_in_date": "Sat, Dec 27",
+        "check_out_date": "Sat, Jan 3",
+        "adults": "2",
+        "children": "0",
+        "rooms": "1",
+        "currency": "INR"
+      },
+      "steps": [
+        "Open the Booking.com homepage.",
+        "In the search form, enter destination as \"Paros\".",
+        "Select check-in date as Sat, Dec 27 and check-out date as Sat, Jan 3.",
+        "Set occupancy to 2 adults, 0 children, 1 room.",
+        "Ensure currency is set to INR.",
+        "Click the Search button.",
+        "On the search results page, observe the total number of properties found for Paros.",
+        "Scroll to the listed properties and note the displayed prices and any taxes/fees for each property.",
+        "Verify that properties such as \"Porto Bello di Paros\", \"Perivoli Luxury Homes, Paros\", and \"JUST BLUE with amazing Sea Views\" show prices consistent with the UI."
+      ],
+      "expected_results": [
+        "Search results page for Paros is displayed with a message like \"Paros: 180 properties found\".",
+        "A notice is shown that 87% of places to stay are unavailable for the selected dates.",
+        "Each listed property shows a price in INR and clearly indicates any additional taxes and fees.",
+        "For \"Porto Bello di Paros\", a discounted price of ₹ 42,948 plus ₹ 366 taxes and fees is displayed for the selected dates.",
+        "For \"Perivoli Luxury Homes, Paros\", a discounted price of ₹ 76,801 plus ₹ 366 taxes and fees is displayed for \"1 week, 2 adults\".",
+        "For \"JUST BLUE with amazing Sea Views\", a discounted price of ₹ 56,302 plus ₹ 14,836 taxes and fees is displayed for \"1 week, 2 adults\".",
+        "The user can infer the approximate hotel cost in Paros for the selected dates from the displayed prices."
+      ],
+      "negative_cases": [
+        "Search results fail to load or show an error instead of the Paros properties list.",
+        "Prices are missing, displayed in a different currency than INR, or taxes and fees are not shown.",
+        "The number of properties found does not match the displayed list (e.g., shows 180 properties found but no items are listed).",
+        "Properties known from the context (e.g., \"Porto Bello di Paros\") do not appear despite being expected for the given dates."
+      ],
+      "boundary_cases": [
+        "Search when almost all properties are unavailable (e.g., 87% unavailable) and verify that remaining available properties still show correct prices.",
+        "Search with the same dates but different occupancy (e.g., 1 adult or more rooms) and verify that prices update accordingly, if data is available.",
+        "Search with dates adjacent to the given range (e.g., one day earlier or later) to verify that availability and prices change appropriately, if data is available."
+      ]
+    },
+    {
+      "use_case_title": "Filter Paros hotel search results by budget per night",
+      "goal": "Verify that the user can filter Paros properties by budget per night and still see correct prices for the filtered results.",
+      "preconditions": [
+        "User is on the Paros search results page with results already loaded.",
+        "Filter panel with \"Your budget (per night)\" is visible."
+      ],
+      "test_data": {
+        "destination": "Paros",
+        "check_in_date": "Sat, Dec 27",
+        "check_out_date": "Sat, Jan 3",
+        "adults": "2",
+        "children": "0",
+        "rooms": "1",
+        "currency": "INR",
+        "budget_range": "₹ 3,000 – ₹ 90,000+"
+      },
+      "steps": [
+        "From the Paros search results page, locate the \"Filter by\" section.",
+        "Identify the \"Your budget (per night)\" filter showing the range \"₹ 3,000 – ₹ 90,000+\".",
+        "Apply a budget filter that includes the prices of properties like \"Porto Bello di Paros\" and \"JUST BLUE with amazing Sea Views\" (within the visible range).",
+        "Observe the updated list of properties after the budget filter is applied.",
+        "Check that the displayed prices for the filtered properties remain consistent with their original values and still show taxes and fees."
+      ],
+      "expected_results": [
+        "The budget filter \"₹ 3,000 – ₹ 90,000+\" is available and can be selected.",
+        "After applying the budget filter, the list of properties is updated without errors.",
+        "Only properties whose prices fall within the selected budget range are displayed.",
+        "Prices for properties such as \"Porto Bello di Paros\" and \"JUST BLUE with amazing Sea Views\" remain correctly displayed in INR with separate taxes and fees lines.",
+        "The user can still determine the approximate hotel cost in Paros within the chosen budget range."
+      ],
+      "negative_cases": [
+        "Applying the budget filter results in an error or blank page.",
+        "Properties outside the selected budget range are still shown.",
+        "Prices disappear or are shown without taxes and fees after applying the filter.",
+        "Currency changes unexpectedly when the budget filter is applied."
+      ],
+      "boundary_cases": [
+        "Apply the lowest possible budget range (e.g., starting at ₹ 3,000) and verify that only the cheapest properties are shown, if any.",
+        "Apply the highest budget range (e.g., ₹ 90,000+) and verify that high-priced properties are shown, if any.",
+        "Apply a budget filter that results in zero matching properties and verify that an appropriate \"no results\" message is displayed."
+      ]
+    }
+  ],
+  "assumptions": [
+    "The prices shown in the screenshots (e.g., ₹ 42,948 + ₹ 366 taxes and fees for Porto Bello di Paros) are final for the specified dates and occupancy.",
+    "The currency is set to INR for the user session.",
+    "The phrase \"1 week, 2 adults\" corresponds exactly to the selected date range Sat, Dec 27 — Sat, Jan 3."
+  ],
+  "missing_info": [
+    "Exact per-night breakdown of the total prices for each property is not provided.",
+    "Behavior when changing currency from INR to another currency is not described.",
+    "Exact interaction details for the budget slider or budget filter options (e.g., discrete buckets vs free-range slider) are not specified."
+  ]
+}

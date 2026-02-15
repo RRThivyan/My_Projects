@@ -1,0 +1,17 @@
+# PyTorch (CUDA 12.1 build)
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Hugging Face ecosystem
+transformers
+datasets
+peft
+trl
+accelerate
+bitsandbytes
+huggingface_hub
+
+# Other dependencies
+protobuf

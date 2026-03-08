@@ -1,4 +1,4 @@
-# 🎙️ Audio Studio v5
+# 🎙️ Audio Studio 
 
 A low-latency real-time audio streaming and processing system built with **Streamlit** and the **Web Audio API**.  
 Records, cleans, visualises, and archives voice audio — fully in the browser + Python backend.

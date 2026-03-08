@@ -1,0 +1,16 @@
+{
+  "slug": "20260308_111712",
+  "label": "Recording 20260308_111712",
+  "timestamp": "2026-03-08T11:17:12.361579",
+  "wav": "recordings\\20260308_111712.wav",
+  "png": "recordings\\20260308_111712.png",
+  "duration": 19.08,
+  "sr": 16000,
+  "samples": 305280,
+  "rms_dBFS": -21.9,
+  "peak_dBFS": -0.02,
+  "crest_dB": 21.88,
+  "zcr": 27901,
+  "snr_dB": 50.82,
+  "proc_ms_1s": 1.93
+}

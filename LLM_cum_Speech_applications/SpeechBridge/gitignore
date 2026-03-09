@@ -1,0 +1,23 @@
+# Environment
+.env
+*.json
+
+# Virtual environment
+venv/
+.venv/
+
+# TTS audio output
+temp/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
